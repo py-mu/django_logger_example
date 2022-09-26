@@ -198,4 +198,5 @@ LOGGING = {
 }
 
 # 使用自定义日志输出反射到默认logging上
-LOGGING_CONFIG = "common.log.simple_log_injector"
+# 如果是需要使用logging 替换为默认的日志输出则需要
+# LOGGING_CONFIG = "common.log.simple_log_injector"
